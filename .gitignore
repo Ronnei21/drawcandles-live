@@ -1,0 +1,39 @@
+# --- CREDENCIAIS E SEGREDOS (NUNCA SUBIR) ---
+*.txt
+supabase_config.py
+mercadopago_config.py
+paypal_config.py
+live_config.txt
+*.png
+!assets/*.png
+!icone.png
+!logo_drawcandles_live_final.png
+
+# --- PASTAS DE BUILD E CACHE ---
+build/
+dist/
+__pycache__/
+*.spec
+
+# --- BACKUPS E VERSÕES ANTIGAS ---
+*.bak
+drawcandleslive.py
+drawcandleslive_v2.py
+drawcandleslive_v3*.py
+drawcandleslive_v4.py
+drawcandleslive_v5.py
+drawcandleslive_v6*.py
+drawcandleslive_v7.py
+drawcandleslive_v7chatgpt*.py
+drawcandlesliveoriginal.py
+
+# --- PASTAS DE TESTES E IMAGENS DE TESTE ---
+imagens_live/
+supabase/
+instalador/
+
+# --- ARQUIVOS INTERNOS E TESTES ---
+*.md
+*.md7
+teste_*.py
+*penultimo.py
